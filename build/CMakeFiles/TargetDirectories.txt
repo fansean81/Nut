@@ -1,0 +1,2 @@
+/home/fanx/Nut/build/CMakeFiles/edit_cache.dir
+/home/fanx/Nut/build/CMakeFiles/rebuild_cache.dir
