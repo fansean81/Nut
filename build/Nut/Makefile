@@ -154,6 +154,30 @@ src/nut/Application.cpp.s:
 	cd /home/fanx/development/Nut/build && $(MAKE) $(MAKESILENT) -f Nut/CMakeFiles/nut.dir/build.make Nut/CMakeFiles/nut.dir/src/nut/Application.cpp.s
 .PHONY : src/nut/Application.cpp.s
 
+src/nut/Log.o: src/nut/Log.cpp.o
+.PHONY : src/nut/Log.o
+
+# target to build an object file
+src/nut/Log.cpp.o:
+	cd /home/fanx/development/Nut/build && $(MAKE) $(MAKESILENT) -f Nut/CMakeFiles/nut.dir/build.make Nut/CMakeFiles/nut.dir/src/nut/Log.cpp.o
+.PHONY : src/nut/Log.cpp.o
+
+src/nut/Log.i: src/nut/Log.cpp.i
+.PHONY : src/nut/Log.i
+
+# target to preprocess a source file
+src/nut/Log.cpp.i:
+	cd /home/fanx/development/Nut/build && $(MAKE) $(MAKESILENT) -f Nut/CMakeFiles/nut.dir/build.make Nut/CMakeFiles/nut.dir/src/nut/Log.cpp.i
+.PHONY : src/nut/Log.cpp.i
+
+src/nut/Log.s: src/nut/Log.cpp.s
+.PHONY : src/nut/Log.s
+
+# target to generate assembly for a file
+src/nut/Log.cpp.s:
+	cd /home/fanx/development/Nut/build && $(MAKE) $(MAKESILENT) -f Nut/CMakeFiles/nut.dir/build.make Nut/CMakeFiles/nut.dir/src/nut/Log.cpp.s
+.PHONY : src/nut/Log.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -166,6 +190,9 @@ help:
 	@echo "... src/nut/Application.o"
 	@echo "... src/nut/Application.i"
 	@echo "... src/nut/Application.s"
+	@echo "... src/nut/Log.o"
+	@echo "... src/nut/Log.i"
+	@echo "... src/nut/Log.s"
 .PHONY : help
 
 

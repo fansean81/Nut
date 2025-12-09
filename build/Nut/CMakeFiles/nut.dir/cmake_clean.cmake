@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "../lib/libnut.so"
   "CMakeFiles/nut.dir/src/nut/Application.cpp.o"
   "CMakeFiles/nut.dir/src/nut/Application.cpp.o.d"
+  "CMakeFiles/nut.dir/src/nut/Log.cpp.o"
+  "CMakeFiles/nut.dir/src/nut/Log.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

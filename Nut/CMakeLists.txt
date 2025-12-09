@@ -13,6 +13,7 @@ endif()
 target_include_directories(nut PUBLIC
     $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/src>
     $<INSTALL_INTERFACE:include>
+    ${CMAKE_CURRENT_SOURCE_DIR}/vendor/spdlog/include
 )
 
 add_custom_command(TARGET nut POST_BUILD

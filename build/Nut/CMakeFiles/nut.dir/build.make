@@ -73,27 +73,43 @@ Nut/CMakeFiles/nut.dir/src/nut/Application.cpp.o: Nut/CMakeFiles/nut.dir/flags.m
 Nut/CMakeFiles/nut.dir/src/nut/Application.cpp.o: ../Nut/src/nut/Application.cpp
 Nut/CMakeFiles/nut.dir/src/nut/Application.cpp.o: Nut/CMakeFiles/nut.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fanx/development/Nut/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Nut/CMakeFiles/nut.dir/src/nut/Application.cpp.o"
-	cd /home/fanx/development/Nut/build/Nut && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Nut/CMakeFiles/nut.dir/src/nut/Application.cpp.o -MF CMakeFiles/nut.dir/src/nut/Application.cpp.o.d -o CMakeFiles/nut.dir/src/nut/Application.cpp.o -c /home/fanx/development/Nut/Nut/src/nut/Application.cpp
+	cd /home/fanx/development/Nut/build/Nut && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Nut/CMakeFiles/nut.dir/src/nut/Application.cpp.o -MF CMakeFiles/nut.dir/src/nut/Application.cpp.o.d -o CMakeFiles/nut.dir/src/nut/Application.cpp.o -c /home/fanx/development/Nut/Nut/src/nut/Application.cpp
 
 Nut/CMakeFiles/nut.dir/src/nut/Application.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nut.dir/src/nut/Application.cpp.i"
-	cd /home/fanx/development/Nut/build/Nut && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fanx/development/Nut/Nut/src/nut/Application.cpp > CMakeFiles/nut.dir/src/nut/Application.cpp.i
+	cd /home/fanx/development/Nut/build/Nut && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fanx/development/Nut/Nut/src/nut/Application.cpp > CMakeFiles/nut.dir/src/nut/Application.cpp.i
 
 Nut/CMakeFiles/nut.dir/src/nut/Application.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nut.dir/src/nut/Application.cpp.s"
-	cd /home/fanx/development/Nut/build/Nut && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fanx/development/Nut/Nut/src/nut/Application.cpp -o CMakeFiles/nut.dir/src/nut/Application.cpp.s
+	cd /home/fanx/development/Nut/build/Nut && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fanx/development/Nut/Nut/src/nut/Application.cpp -o CMakeFiles/nut.dir/src/nut/Application.cpp.s
+
+Nut/CMakeFiles/nut.dir/src/nut/Log.cpp.o: Nut/CMakeFiles/nut.dir/flags.make
+Nut/CMakeFiles/nut.dir/src/nut/Log.cpp.o: ../Nut/src/nut/Log.cpp
+Nut/CMakeFiles/nut.dir/src/nut/Log.cpp.o: Nut/CMakeFiles/nut.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fanx/development/Nut/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Nut/CMakeFiles/nut.dir/src/nut/Log.cpp.o"
+	cd /home/fanx/development/Nut/build/Nut && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Nut/CMakeFiles/nut.dir/src/nut/Log.cpp.o -MF CMakeFiles/nut.dir/src/nut/Log.cpp.o.d -o CMakeFiles/nut.dir/src/nut/Log.cpp.o -c /home/fanx/development/Nut/Nut/src/nut/Log.cpp
+
+Nut/CMakeFiles/nut.dir/src/nut/Log.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nut.dir/src/nut/Log.cpp.i"
+	cd /home/fanx/development/Nut/build/Nut && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fanx/development/Nut/Nut/src/nut/Log.cpp > CMakeFiles/nut.dir/src/nut/Log.cpp.i
+
+Nut/CMakeFiles/nut.dir/src/nut/Log.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nut.dir/src/nut/Log.cpp.s"
+	cd /home/fanx/development/Nut/build/Nut && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fanx/development/Nut/Nut/src/nut/Log.cpp -o CMakeFiles/nut.dir/src/nut/Log.cpp.s
 
 # Object files for target nut
 nut_OBJECTS = \
-"CMakeFiles/nut.dir/src/nut/Application.cpp.o"
+"CMakeFiles/nut.dir/src/nut/Application.cpp.o" \
+"CMakeFiles/nut.dir/src/nut/Log.cpp.o"
 
 # External object files for target nut
 nut_EXTERNAL_OBJECTS =
 
 lib/libnut.so: Nut/CMakeFiles/nut.dir/src/nut/Application.cpp.o
+lib/libnut.so: Nut/CMakeFiles/nut.dir/src/nut/Log.cpp.o
 lib/libnut.so: Nut/CMakeFiles/nut.dir/build.make
 lib/libnut.so: Nut/CMakeFiles/nut.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fanx/development/Nut/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library ../lib/libnut.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fanx/development/Nut/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library ../lib/libnut.so"
 	cd /home/fanx/development/Nut/build/Nut && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nut.dir/link.txt --verbose=$(VERBOSE)
 	cd /home/fanx/development/Nut/build/Nut && /usr/bin/cmake -E copy_if_different /home/fanx/development/Nut/build/lib/libnut.so /home/fanx/development/Nut/build/bin
 

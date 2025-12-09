@@ -73,15 +73,15 @@ Sandbox/CMakeFiles/sandbox.dir/src/SandboxApp.cpp.o: Sandbox/CMakeFiles/sandbox.
 Sandbox/CMakeFiles/sandbox.dir/src/SandboxApp.cpp.o: ../Sandbox/src/SandboxApp.cpp
 Sandbox/CMakeFiles/sandbox.dir/src/SandboxApp.cpp.o: Sandbox/CMakeFiles/sandbox.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fanx/development/Nut/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Sandbox/CMakeFiles/sandbox.dir/src/SandboxApp.cpp.o"
-	cd /home/fanx/development/Nut/build/Sandbox && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Sandbox/CMakeFiles/sandbox.dir/src/SandboxApp.cpp.o -MF CMakeFiles/sandbox.dir/src/SandboxApp.cpp.o.d -o CMakeFiles/sandbox.dir/src/SandboxApp.cpp.o -c /home/fanx/development/Nut/Sandbox/src/SandboxApp.cpp
+	cd /home/fanx/development/Nut/build/Sandbox && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Sandbox/CMakeFiles/sandbox.dir/src/SandboxApp.cpp.o -MF CMakeFiles/sandbox.dir/src/SandboxApp.cpp.o.d -o CMakeFiles/sandbox.dir/src/SandboxApp.cpp.o -c /home/fanx/development/Nut/Sandbox/src/SandboxApp.cpp
 
 Sandbox/CMakeFiles/sandbox.dir/src/SandboxApp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sandbox.dir/src/SandboxApp.cpp.i"
-	cd /home/fanx/development/Nut/build/Sandbox && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fanx/development/Nut/Sandbox/src/SandboxApp.cpp > CMakeFiles/sandbox.dir/src/SandboxApp.cpp.i
+	cd /home/fanx/development/Nut/build/Sandbox && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fanx/development/Nut/Sandbox/src/SandboxApp.cpp > CMakeFiles/sandbox.dir/src/SandboxApp.cpp.i
 
 Sandbox/CMakeFiles/sandbox.dir/src/SandboxApp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sandbox.dir/src/SandboxApp.cpp.s"
-	cd /home/fanx/development/Nut/build/Sandbox && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fanx/development/Nut/Sandbox/src/SandboxApp.cpp -o CMakeFiles/sandbox.dir/src/SandboxApp.cpp.s
+	cd /home/fanx/development/Nut/build/Sandbox && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fanx/development/Nut/Sandbox/src/SandboxApp.cpp -o CMakeFiles/sandbox.dir/src/SandboxApp.cpp.s
 
 # Object files for target sandbox
 sandbox_OBJECTS = \
