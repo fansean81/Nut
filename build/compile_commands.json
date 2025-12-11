@@ -1,12 +1,12 @@
 [
 {
   "directory": "/home/fanx/development/Nut/build/Nut",
-  "command": "/usr/bin/g++ -DNUT_PLATFORM_LINUX -Dnut_EXPORTS -I/home/fanx/development/Nut/Nut/src -I/home/fanx/development/Nut/Nut/vendor/spdlog/include -g -fPIC -std=c++17 -o CMakeFiles/nut.dir/src/nut/Application.cpp.o -c /home/fanx/development/Nut/Nut/src/nut/Application.cpp",
+  "command": "/usr/bin/g++ -DNUT_BUILD_DLL=1 -DNUT_PLATFORM_LINUX -Dnut_EXPORTS -I/home/fanx/development/Nut/Nut/src -I/home/fanx/development/Nut/Nut/vendor/spdlog/include -g -fPIC -std=c++17 -o CMakeFiles/nut.dir/src/nut/Application.cpp.o -c /home/fanx/development/Nut/Nut/src/nut/Application.cpp",
   "file": "/home/fanx/development/Nut/Nut/src/nut/Application.cpp"
 },
 {
   "directory": "/home/fanx/development/Nut/build/Nut",
-  "command": "/usr/bin/g++ -DNUT_PLATFORM_LINUX -Dnut_EXPORTS -I/home/fanx/development/Nut/Nut/src -I/home/fanx/development/Nut/Nut/vendor/spdlog/include -g -fPIC -std=c++17 -o CMakeFiles/nut.dir/src/nut/Log.cpp.o -c /home/fanx/development/Nut/Nut/src/nut/Log.cpp",
+  "command": "/usr/bin/g++ -DNUT_BUILD_DLL=1 -DNUT_PLATFORM_LINUX -Dnut_EXPORTS -I/home/fanx/development/Nut/Nut/src -I/home/fanx/development/Nut/Nut/vendor/spdlog/include -g -fPIC -std=c++17 -o CMakeFiles/nut.dir/src/nut/Log.cpp.o -c /home/fanx/development/Nut/Nut/src/nut/Log.cpp",
   "file": "/home/fanx/development/Nut/Nut/src/nut/Log.cpp"
 },
 {
