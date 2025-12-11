@@ -4,6 +4,8 @@ file(GLOB NUT_SOURCES
 
 add_library(nut SHARED ${NUT_SOURCES})
 
+target_compile_definitions(nut PRIVATE NUT_BUILD_DLL=1)
+
 if(UNIX AND NOT APPLE)
     target_compile_definitions(nut PUBLIC NUT_PLATFORM_LINUX)
 elseif (WIN32)

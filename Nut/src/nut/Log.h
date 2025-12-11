@@ -20,3 +20,17 @@ namespace Nut
         static std::shared_ptr<spdlog::logger> s_ClientLogger;
     };
 }
+
+// Core log macros
+#define NUT_CORE_TRACE(...) ::Nut::Log::GetCoreLogger()->trace(__VA_ARGS__)
+#define NUT_CORE_INFO(...)  ::Nut::Log::GetCoreLogger()->info(__VA_ARGS__)
+#define NUT_CORE_WARN(...)  ::Nut::Log::GetCoreLogger()->warn(__VA_ARGS__)
+#define NUT_CORE_ERROR(...) ::Nut::Log::GetCoreLogger()->error(__VA_ARGS__)
+#define NUT_CORE_FATAL(...) ::Nut::Log::GetCoreLogger()->fatal(__VA_ARGS__)
+
+// Client log macros
+#define NUT_TRACE(...) ::Nut::Log::GetClientLogger()->trace(__VA_ARGS__)
+#define NUT_INFO(...)  ::Nut::Log::GetClientLogger()->info(__VA_ARGS__)
+#define NUT_WARN(...)  ::Nut::Log::GetClientLogger()->warn(__VA_ARGS__)
+#define NUT_ERROR(...) ::Nut::Log::GetClientLogger()->error(__VA_ARGS__)
+#define NUT_FATAL(...) ::Nut::Log::GetClientLogger()->fatal(__VA_ARGS__)

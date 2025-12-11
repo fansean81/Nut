@@ -5,8 +5,9 @@
 int main(int argc, char** argv)
 {
     Nut::Log::Init();
-    Nut::Log::GetCoreLogger()->warn("Hello, Nut!");
-    Nut::Log::GetClientLogger()->info("Hello, Client!");
+    NUT_CORE_WARN("Initialized Log!");
+    int a = 5;
+    NUT_INFO("Hello! Var={0}", a);
 
     auto app = Nut::CreateApplication();
     app->Run();
