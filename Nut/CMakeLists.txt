@@ -4,6 +4,10 @@ file(GLOB NUT_SOURCES
 
 add_library(nut SHARED ${NUT_SOURCES})
 
+target_precompile_headers(nut PRIVATE
+    src/nutpch.h
+)
+
 target_compile_definitions(nut PRIVATE NUT_BUILD_DLL=1)
 
 if(UNIX AND NOT APPLE)

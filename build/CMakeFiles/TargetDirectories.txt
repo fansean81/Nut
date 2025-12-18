@@ -1,8 +1,8 @@
-/home/fanx/development/Nut/build/CMakeFiles/edit_cache.dir
-/home/fanx/development/Nut/build/CMakeFiles/rebuild_cache.dir
-/home/fanx/development/Nut/build/Nut/CMakeFiles/nut.dir
-/home/fanx/development/Nut/build/Nut/CMakeFiles/edit_cache.dir
-/home/fanx/development/Nut/build/Nut/CMakeFiles/rebuild_cache.dir
-/home/fanx/development/Nut/build/Sandbox/CMakeFiles/sandbox.dir
-/home/fanx/development/Nut/build/Sandbox/CMakeFiles/edit_cache.dir
-/home/fanx/development/Nut/build/Sandbox/CMakeFiles/rebuild_cache.dir
+/home/fanx/Nut/build/CMakeFiles/edit_cache.dir
+/home/fanx/Nut/build/CMakeFiles/rebuild_cache.dir
+/home/fanx/Nut/build/Nut/CMakeFiles/nut.dir
+/home/fanx/Nut/build/Nut/CMakeFiles/edit_cache.dir
+/home/fanx/Nut/build/Nut/CMakeFiles/rebuild_cache.dir
+/home/fanx/Nut/build/Sandbox/CMakeFiles/sandbox.dir
+/home/fanx/Nut/build/Sandbox/CMakeFiles/edit_cache.dir
+/home/fanx/Nut/build/Sandbox/CMakeFiles/rebuild_cache.dir

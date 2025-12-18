@@ -1,8 +1,9 @@
 #pragma once
+
 #include <iostream>
 
 #ifdef NUT_PLATFORM_LINUX
-int main(int argc, char** argv)
+int main(int argc, char **argv)
 {
     Nut::Log::Init();
     NUT_CORE_WARN("Initialized Log!");

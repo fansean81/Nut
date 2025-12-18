@@ -1,4 +1,4 @@
-# Install script for directory: /home/fanx/development/Nut/Nut
+# Install script for directory: /home/fanx/Nut/Nut
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

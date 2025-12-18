@@ -1,1 +1,1 @@
-/usr/bin/g++ -g CMakeFiles/sandbox.dir/src/SandboxApp.cpp.o -o ../bin/sandbox  -Wl,-rpath,/home/fanx/development/Nut/build/lib ../lib/libnut.so 
+/usr/bin/g++ -g CMakeFiles/sandbox.dir/src/SandboxApp.cpp.o -o ../bin/sandbox  -Wl,-rpath,/home/fanx/Nut/build/lib ../lib/libnut.so 

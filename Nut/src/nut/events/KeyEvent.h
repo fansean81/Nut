@@ -2,8 +2,6 @@
 
 #include "Event.h"
 
-#include <string>
-
 namespace Nut
 {
     class NUT_API KeyEvent : public Event
@@ -15,7 +13,7 @@ namespace Nut
 
     protected:
         KeyEvent(int keycode)
-        : m_KeyCode(keycode) {}
+            : m_KeyCode(keycode) {}
 
         int m_KeyCode;
     };
@@ -24,7 +22,7 @@ namespace Nut
     {
     public:
         KeyPressedEvent(int keycode, int repeatCount = 0)
-        : KeyEvent(keycode), m_RepeatCount(repeatCount) {}
+            : KeyEvent(keycode), m_RepeatCount(repeatCount) {}
 
         inline int GetRepeatCount() const { return m_RepeatCount; }
 
@@ -38,5 +36,21 @@ namespace Nut
         EVENT_CLASS_TYPE(KeyPressed)
     private:
         int m_RepeatCount;
+    };
+
+    class NUT_API KeyReleasedEvent : public KeyEvent
+    {
+    public:
+        KeyReleasedEvent(int keycode)
+            : KeyEvent(keycode) {}
+
+        std::string ToString() const override
+        {
+            std::stringstream ss;
+            ss << "KeyReleasedEvent: " << m_KeyCode;
+            return ss.str();
+        }
+
+        EVENT_CLASS_TYPE(KeyReleased)
     };
 } // namespace Nut
