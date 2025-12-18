@@ -1,1 +1,0 @@
-/usr/bin/g++ -fPIC -g -shared -Wl,-soname,libnut.so -o ../lib/libnut.so CMakeFiles/nut.dir/src/nut/Application.cpp.o CMakeFiles/nut.dir/src/nut/Log.cpp.o 
