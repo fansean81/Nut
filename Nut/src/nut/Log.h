@@ -17,7 +17,7 @@ namespace Nut
         static std::shared_ptr<spdlog::logger> s_CoreLogger;
         static std::shared_ptr<spdlog::logger> s_ClientLogger;
     };
-}
+} // namespace Nut
 
 // Core log macros
 #define NUT_CORE_TRACE(...) ::Nut::Log::GetCoreLogger()->trace(__VA_ARGS__)

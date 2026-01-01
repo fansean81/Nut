@@ -1,5 +1,8 @@
 #pragma once
+
 #include "Core.h"
+#include "events/Event.h"
+#include "Window.h"
 
 namespace Nut
 {
@@ -8,10 +11,14 @@ namespace Nut
     public:
         Application();
         virtual ~Application();
-        
+
         void Run();
+
+    private:
+        std::unique_ptr<Window> m_Window;
+        bool m_Running = true;
     };
 
     // To be defined in client
-    Application* CreateApplication();
-}
+    Application *CreateApplication();
+} // namespace Nut
